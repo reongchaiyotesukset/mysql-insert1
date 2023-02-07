@@ -22,7 +22,7 @@ fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
        
              
              let insertdata = vec![
-				example { id: 1, data: Some("c#".into()) },
+				example { id: 2, data: Some("c#".into()) },
 			];
 
 		
@@ -40,12 +40,7 @@ fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
 			
 			//println!("{:?}",stack[1].data);
 		    //println!("{:?}",data);
-      
-      
-;
-       
   
        Ok(())
     
 }
- 
